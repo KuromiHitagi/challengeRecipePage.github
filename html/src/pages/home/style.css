@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    font-family: 'outfit';
+    background-color: hsl(30, 18%, 87%);
+    width: 1440px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+    line-height: 1.8;
+}
+
+main{
+    display:flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 20px;
+    
+    margin-top:20px;
+    padding:30px;
+    width: fit-content;
+    height: fit-content;
+}
+.img{
+    width: 520px;
+    border-radius: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.description h1{
+    font-family: 'young-serif';
+    color: hsl(24, 5%, 18%);
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+.description p {
+    margin-top: -15px;
+}
+
+
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding:20px;
+    margin:20px 0;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+    margin-top: 0;
+    font-family: 'young-serif';
+}
+.preparation ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0 0 0;
+}
+.preparation ul li::marker{
+    color:hsl(332, 51%, 32%);
+}
+.preparation li{
+    margin-bottom:5px ;
+    font-size: 16px;
+}
+
+
+.ingredients{
+    border-bottom: #ddd 1px solid;
+}
+.ingredients h2{
+    color:hsl(14, 45%, 36%);
+    font-family: 'young-serif';
+}
+.ingredients ul li::marker{
+    color:hsl(14, 45%, 36%);
+}
+.ingredients li{
+    margin-bottom: 5px;
+}
+
+
+.instructions{
+    border-bottom: solid 1px #ddd;
+}
+.instructions h3{
+    color:hsl(14, 45%, 36%);
+    font-family: 'young-serif';
+}
+.instructions ol li::marker{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+b {
+    font-weight: bolder;
+}
+
+.nutrition{
+    border-bottom: 1px solid #ddd;
+}
+.nutrition h3{
+    color:hsl(14, 45%, 36%);
+    font-family: 'young-serif';
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+.row span{
+    margin-left: 30px;
+}
+.value{
+    font-weight: bolder;
+    color:hsl(14, 45%, 36%);
+    margin-right: 250px;
+}
+
+
+
+@font-face {
+    font-family:'outfit';
+    src: url('/html/public/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family:'young-serif';
+    src: url('/html/public/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@media (max-width: 375px) {
+body {
+    width: 375px;
+    font-size: 8px;
+    line-height: 2.2;
+}
+
+main{
+    border-radius: 0;
+    
+    margin:0px;
+    padding:0px;
+    width: 375px;
+    height: fit-content;
+}
+.img{
+    width: 375px;
+    border-radius:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.description h1{
+    font-size: 16px;
+}
+.description p {
+    margin-top: -15px;
+}
+
+.preparation li{
+    margin-bottom:5px ;
+    font-size: 8px;
+}
+
+.ingredients li{
+    margin-bottom: 5px;
+}
+
+.instructions h3{
+    font-size: 12px;
+}
+
+.nutrition{
+    margin-bottom: 20px;
+}
+.nutrition h3{
+    font-size: 12px;
+}
+
+.row span{
+    margin-left: 30px;
+}
+.value{
+    margin-right: 140px;
+}
+}
