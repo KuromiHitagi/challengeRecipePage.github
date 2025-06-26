@@ -134,13 +134,13 @@ b {
 
 @font-face {
     font-family:'outfit';
-    src: url('public/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    src: url('html/public/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family:'young-serif';
-    src: url('public/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    src: url('html/public/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
